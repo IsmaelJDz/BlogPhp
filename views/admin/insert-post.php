@@ -33,10 +33,10 @@
                     <form method="post">
                         <div class="form-group">
                             <label for="inputTitle">Title</label>
-                            <input type="text" class="form-control" name="title" id="inputTitle">
+                            <input type="text" class="form-control" name="title" id="inputTitle" required>
                         </div>
 
-                        <textarea name="content" class="form-control" rows="8" cols="80" id="inputContent"></textarea></br>
+                        <textarea name="content" class="form-control" rows="8" cols="80" id="inputContent" required></textarea></br>
 
                         <input class="btn btn-primary" type="submit" value="Save">
                     </form>
