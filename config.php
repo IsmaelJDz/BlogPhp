@@ -1,7 +1,7 @@
 <?php
 
     $dbHost = 'localhost';
-    $dbName = 'cursophp';
+    $dbName = 'cursophp2';
     $dbUser = 'root';
     $dbPass = '';
 
