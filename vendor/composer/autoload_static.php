@@ -21,6 +21,7 @@ class ComposerStaticInit467c3cbfa42f36cc1300bd6ceb1210a0
         array (
             'Symfony\\Polyfill\\Mbstring\\' => 26,
             'Symfony\\Component\\Translation\\' => 30,
+            'Sirius\\Validation\\' => 18,
         ),
         'P' => 
         array (
@@ -35,6 +36,7 @@ class ComposerStaticInit467c3cbfa42f36cc1300bd6ceb1210a0
         ),
         'D' => 
         array (
+            'Dotenv\\' => 7,
             'Doctrine\\Common\\Inflector\\' => 26,
         ),
         'C' => 
@@ -60,6 +62,10 @@ class ComposerStaticInit467c3cbfa42f36cc1300bd6ceb1210a0
         array (
             0 => __DIR__ . '/..' . '/symfony/translation',
         ),
+        'Sirius\\Validation\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/siriusphp/validation/src',
+        ),
         'Phroute\\Phroute\\' => 
         array (
             0 => __DIR__ . '/..' . '/phroute/phroute/src/Phroute',
@@ -79,6 +85,10 @@ class ComposerStaticInit467c3cbfa42f36cc1300bd6ceb1210a0
         'Illuminate\\Container\\' => 
         array (
             0 => __DIR__ . '/..' . '/illuminate/container',
+        ),
+        'Dotenv\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/vlucas/phpdotenv/src',
         ),
         'Doctrine\\Common\\Inflector\\' => 
         array (
