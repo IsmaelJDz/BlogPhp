@@ -6,6 +6,8 @@ error_reporting(E_ALL);
 
 require_once '../vendor/autoload.php';
 
+session_start();
+
 $baseDir =  str_replace(basename($_SERVER['SCRIPT_NAME']), '', $_SERVER['SCRIPT_NAME']);
 $baseUrl = 'http://' . $_SERVER['HTTP_HOST'] . $baseDir;
 define('BASE_URL', $baseUrl);
@@ -47,7 +49,11 @@ $router = new RouteCollector();
 
 $router->controller('/admin/posts', App\Controllers\Admin\PostController::class);
 
+$router->controller('/admin/users', App\Controllers\Admin\UserController::class);
+
 $router->controller('/admin', App\Controllers\Admin\IndexController::class);
+
+$router->controller('/auth', App\Controllers\AuthController::class);
 
 $router->controller('/', App\Controllers\IndexController::class);
 
